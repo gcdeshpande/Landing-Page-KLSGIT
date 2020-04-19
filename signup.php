@@ -33,10 +33,10 @@
   <div class="container reveal-bottom-fade">
     
 <?php
-$servername = "localhost";
-$username = "gitedu_admission";
-$password = "B_29bombergcd";
-$dbname = "gitedu_ugadmissions";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 $name=$_POST["name"];
 $email=$_POST["email"];
