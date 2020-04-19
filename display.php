@@ -34,9 +34,9 @@
     
 <?php
 $servername = "localhost";
-$username = "gitedu_admission";
-$password = "B_29bombergcd";
-$dbname = "gitedu_ugadmissions";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
