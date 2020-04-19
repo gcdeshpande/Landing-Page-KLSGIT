@@ -1,0 +1,23 @@
+[09-Apr-2020 08:26:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/gitedu/public_html/ugadmissions/display.php on line 56
+[09-Apr-2020 08:26:08 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/gitedu/public_html/ugadmissions/display.php on line 56
+[09-Apr-2020 08:26:37 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/gitedu/public_html/ugadmissions/display.php on line 56
+[09-Apr-2020 08:26:40 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/gitedu/public_html/ugadmissions/display.php on line 56
+[09-Apr-2020 08:29:36 Etc/GMT] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ';' in /home/gitedu/public_html/ugadmissions/display.php on line 56
+[09-Apr-2020 08:29:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ';' in /home/gitedu/public_html/ugadmissions/display.php on line 56
+[09-Apr-2020 08:33:18 Etc/GMT] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ';' in /home/gitedu/public_html/ugadmissions/display.php on line 57
+[09-Apr-2020 08:33:23 Etc/GMT] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ';' in /home/gitedu/public_html/ugadmissions/display.php on line 57
+[09-Apr-2020 08:33:26 Etc/GMT] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ';' in /home/gitedu/public_html/ugadmissions/display.php on line 57
+[09-Apr-2020 08:35:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/gitedu/public_html/ugadmissions/display.php on line 56
+[09-Apr-2020 08:35:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/gitedu/public_html/ugadmissions/display.php on line 56
+[19-Apr-2020 20:36:26 Etc/GMT] PHP Notice:  Undefined index: name in /home/gitedu/public_html/ugadmissions/signup.php on line 41
+[19-Apr-2020 20:36:26 Etc/GMT] PHP Notice:  Undefined index: email in /home/gitedu/public_html/ugadmissions/signup.php on line 42
+[19-Apr-2020 20:36:26 Etc/GMT] PHP Notice:  Undefined index: mobile in /home/gitedu/public_html/ugadmissions/signup.php on line 43
+[19-Apr-2020 20:36:26 Etc/GMT] PHP Notice:  Undefined index: description in /home/gitedu/public_html/ugadmissions/signup.php on line 44
+[19-Apr-2020 20:37:17 Etc/GMT] PHP Notice:  Undefined index: name in /home/gitedu/public_html/ugadmissions/signup.php on line 41
+[19-Apr-2020 20:37:17 Etc/GMT] PHP Notice:  Undefined index: email in /home/gitedu/public_html/ugadmissions/signup.php on line 42
+[19-Apr-2020 20:37:17 Etc/GMT] PHP Notice:  Undefined index: mobile in /home/gitedu/public_html/ugadmissions/signup.php on line 43
+[19-Apr-2020 20:37:17 Etc/GMT] PHP Notice:  Undefined index: description in /home/gitedu/public_html/ugadmissions/signup.php on line 44
+[19-Apr-2020 20:39:28 Etc/GMT] PHP Notice:  Undefined index: name in /home/gitedu/public_html/ugadmissions/signup.php on line 41
+[19-Apr-2020 20:39:28 Etc/GMT] PHP Notice:  Undefined index: email in /home/gitedu/public_html/ugadmissions/signup.php on line 42
+[19-Apr-2020 20:39:28 Etc/GMT] PHP Notice:  Undefined index: mobile in /home/gitedu/public_html/ugadmissions/signup.php on line 43
+[19-Apr-2020 20:39:28 Etc/GMT] PHP Notice:  Undefined index: description in /home/gitedu/public_html/ugadmissions/signup.php on line 44

@@ -1,0 +1,753 @@
+/* --------------------------------------
+=========================================
+VibrantGYM Landing Page Template
+Version: 1.0
+Designed By: CreativeCary
+=========================================
+-----------------------------------------
+
+1. GLOABL - CSS
+	1.1 IMPORT GOOGLE WEBFONT
+	1.2 GENERAL - CSS
+	1.3 TYPOGRAPHY 
+	1.4 PRE-LOADER 
+	1.4 PRE-LOADER ANIMATIONS 
+
+2. MASTER COLOR SETTINGS
+	2.1 BACKGROUND COLOR SETTINGS
+	2.2 BORDER COLOR SETTINGS 
+	2.3 TEXT COLOR SETTINGS
+	
+3. SECTION CSS
+
+4. HEADER SECTION
+	4.1 HEADER LEFT 
+	4.1 HEADER RIGHT 
+	
+5. STATISTICS SECTION
+	5.1 GENERAL CSS
+
+6. FEATURE SECTION
+	6.1 GENERAL CSS
+
+7. TRAINING CLASSES  SECTION
+	7.1 GENERAL CSS
+
+8. VIDEO  SECTION
+	8.1 GENERAL CSS
+
+9. CLIENT SECTION
+	9.1 GENERAL CSS
+
+10. SUBSCRIBE SECTION
+	10.1 GENERAL CSS
+
+11. FOOTER SECTION
+	11.1 GENERAL CSS
+	
+-----------------------------------------*/
+
+/* --------------------------------------
+=========================================
+   1. GLOABL - CSS
+=========================================
+-----------------------------------------*/
+
+/*---------------------------------------
+   1.1 IMPORT GOOGLE WEBFONT               
+-----------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+
+/*---------------------------------------
+   1.2 GENERAL - CSS               
+-----------------------------------------*/
+
+body {
+	background:#1f1f1f;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px; /* PIXEL FALLBACK */
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: #8f96a9;
+}
+
+iframe {
+	border: none;
+}
+
+/*---------------------------------------
+   1.3 TYPOGRAPHY               
+-----------------------------------------*/
+	
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-size: 48px; /* PIXEL FALLBACK */
+	font-size: 4.8rem;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 40px; /* PIXEL FALLBACK */
+	font-size: 4rem;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+h3 {
+	font-size: 24px; /* PIXEL FALLBACK */
+	font-size: 2.4rem;
+}
+
+h4 {
+	font-size: 20px; /* PIXEL FALLBACK */
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 18px; /* PIXEL FALLBACK */
+	font-size: 1.8rem;
+}
+
+section p {
+	font-size: 16px; /* PIXEL FALLBACK */
+	font-size: 1.6rem;
+}
+
+footer p {
+	font-size: 14px; /* PIXEL FALLBACK */
+	font-size: 1.4rem;
+}
+
+/*---------------------------------------
+   1.4 PRE-LOADER              
+-----------------------------------------*/
+
+#loading{
+	background:#252525;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	margin-top: 0px;
+	top: 0px;
+}
+#loading-center{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#loading-center-absolute {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 200px;
+	width: 200px;
+	margin-top: -100px;
+	margin-left: -100px;
+}
+#object{
+	background: #00acb3;
+	width: 30px;
+	height: 30px;
+	-webkit-animation: animate 1s infinite ease-in-out;
+	animation: animate 1s infinite ease-in-out;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
+
+/*---------------------------------------
+   1.5 PRE-LOADER ANIMATION               
+-----------------------------------------*/
+
+@-webkit-keyframes animate {
+  0% { -webkit-transform: perspective(160px); }
+  50% { -webkit-transform: perspective(160px) rotateY(-180deg); }
+  100% { -webkit-transform: perspective(160px) rotateY(-180deg) rotateX(-180deg); }
+}
+
+@keyframes animate {
+  0% { 
+    transform: perspective(160px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(0deg) rotateY(0deg); 
+  } 50% { 
+    transform: perspective(160px) rotateX(-180deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(0deg) ;
+  } 100% { 
+    transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+  }
+}
+
+
+/* --------------------------------------
+=========================================
+   2. MASTER COLOR SETTINGS
+=========================================
+-----------------------------------------*/
+
+/*---------------------------------------
+   2.1 BACKGROUND COLOR SETTINGS               
+-----------------------------------------*/
+
+.gray {
+	background: #252525;
+}
+
+.red {
+	background: #ee2b49;
+}
+
+.blue {
+	background: #00acb3;
+}
+
+.gold {
+	background: #f6802b;
+}
+
+.purple {
+	background: #d055de;
+}
+
+/*---------------------------------------
+   2.2 BORDER COLOR SETTINGS               
+-----------------------------------------*/	
+
+.center-line {
+	width: 60px;
+	height: 2px;
+	background: #f39049;
+	display: inline-block;
+	margin: 17px 0;
+}
+
+/*---------------------------------------
+   2.3 TEXT COLOR SETTINGS               
+-----------------------------------------*/
+
+h1, h2, h3, p {
+	color: #fff;
+}
+
+section h2, h4 {
+	color: #fff;
+}
+
+section p {
+	color: #ccc;
+}
+
+.gray-text {
+	color: #f7f8f9;
+}
+
+.red-text {
+	color: #ee2b49;
+}
+
+.blue-text {
+	color: #00acb3;
+}
+
+.gold-text {
+	color: #f6802b;
+}
+
+.purple-text {
+	color: #d055de;
+}
+
+/* --------------------------------------
+=========================================
+   3. Section CSS
+=========================================
+-----------------------------------------*/	
+
+section {
+	padding: 70px 0;
+	text-align: center;
+}
+.padd-both{
+	padding:0 100px;
+	}
+/* --------------------------------------
+=========================================
+   4. HEADER SECTION
+=========================================
+-----------------------------------------*/
+
+header, .subscribe-bg {
+	background-size: cover;
+	padding: 0 0;
+    position: relative;
+}
+
+header1 {
+	background-size: cover;
+	padding: 0 0;
+	position: relative;
+	
+}
+
+header:before, .subscribe-bg:before {
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(0,0,0,0.0);
+}
+
+
+/*---------------------------------------
+   4.1 HEADER LEFT               
+-----------------------------------------*/
+
+.logo {
+	display: inline-block;
+}
+
+header h1 {
+	margin-top: 48px;
+}
+
+ul.header-list {
+	padding: 0px;
+}
+
+ul.header-list li {
+	list-style: none;
+	background: url(../img/check.png) no-repeat;
+	padding-left: 55px;
+	padding-bottom: 30px;
+	font-size: 18px; /* PIXEL FALLBACK */
+	font-size: 1.8rem;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	margin: 0 0 15px;
+}
+
+/*---------------------------------------
+   4.1 HEADER RIGHT               
+-----------------------------------------*/	
+
+.form-bg {
+	background-color: rgba(0, 0, 0, 1.0);
+	text-align: center;
+	margin-top: 35px;
+	padding: 20px;
+    position: relative;
+}
+
+.form-bg h3 {
+    margin: 35px 0 20px;
+}
+
+.form-holder i.fa-arrow-down {
+    color: #fff;
+    background: #00acb3;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    margin-left: -35px;
+    font-size: 28px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.form-bg input {
+	background: #fff;
+	border: 1px solid #d1d1d1;
+	height: 50px;
+	border-radius: 0px;
+	font-size: 12px;
+	color: #000;
+	margin: 0 0 15px;
+}
+.form-bg textarea {
+	background: #fff;
+	border: 1px solid #d1d1d1;
+	border-radius: 0px;
+	font-size: 12px;
+	color: #000;
+    min-height: 70px;
+	margin: 0 0 15px;
+}
+
+.form-bg button, .form-bg input.submit-btn {
+	background: #ee2b49 none repeat scroll 0 0;
+	border: 0 solid #ee2b49;
+	border-radius: 0;
+	color: #fff !important;
+	font-size: 15px;
+	height: 50px;
+	margin: 0 0 15px;
+	width: 100%;
+}
+
+.error{
+	background:#ee2b49;
+	color:#fff;
+	text-align:center;
+	line-height:50px;
+	margin-bottom:15px;
+	}
+	
+.success{
+	background:#00acb3;
+	color:#fff;
+	text-align:center;
+	line-height:50px;
+	margin-bottom:15px;
+	}
+/* --------------------------------------
+=========================================
+   5. STATISTICS SECTION
+=========================================
+-----------------------------------------*/
+
+/*---------------------------------------
+   5.1 GENERAL CSS              
+-----------------------------------------*/	
+
+.statistics {
+	background: #00acb3;
+	min-height: 125px;
+	padding: 0 0 25px;
+}
+
+.stat-icon {
+    position: relative;
+}
+.stat-icon::before {
+    color: #fff;
+    font-size: 55px;
+    position: absolute
+}
+
+.stat-text {
+	margin: 25px 0 0;
+	text-align: left;
+	display: inline-block;
+}
+
+.stat-text h3 {
+	font-size: 36px;
+	margin: 5px 0 0px;
+	font-weight: normal;
+    padding-left: 70px;
+}
+
+.stat-text p {
+	color: #fff;
+    padding-left: 70px;
+}
+
+/* --------------------------------------
+=========================================
+   6. FEATURE SECTION
+=========================================
+-----------------------------------------*/
+
+/*---------------------------------------
+   6.1 GENERAL CSS              
+-----------------------------------------*/	
+
+.feature {
+	margin: 38px 0 0;
+}
+
+.feature-icon {
+	margin: 0 0 25px;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+/* --------------------------------------
+=========================================
+   7. TRAINING CLASSES  SECTION
+=========================================
+-----------------------------------------*/
+
+/*---------------------------------------
+   7.1 GENERAL CSS              
+-----------------------------------------*/	
+
+.training-image {
+	margin: 35px 0 0;
+}
+
+.training-image img {
+	width: 100%;
+}
+
+.price-box {
+	display: inline-block;
+	height: 110px;
+	width: 100%;
+}
+
+.price-box h4 {
+	color: #fff;
+	margin: 32px 0 5px;
+}
+
+.price-box p {
+	color: #fff;
+}
+
+/* --------------------------------------
+=========================================
+   8. VIDEO  SECTION
+=========================================
+-----------------------------------------*/	
+
+/*---------------------------------------
+   8.1 GENERAL CSS              
+-----------------------------------------*/	
+
+.video {
+	margin: 38px 0 0;
+}
+
+.video iframe {
+	width: 100%;
+	height: 760px;
+}
+
+/* --------------------------------------
+=========================================
+   9. CLIENT SECTION
+=========================================
+-----------------------------------------*/	
+
+/*---------------------------------------
+   9.1 GENERAL CSS              
+-----------------------------------------*/	
+.client-box {
+  margin: 105px 15px 0;
+}
+.client-image {
+	height: 90px;
+}
+
+.client-image img {
+	border: 5px solid #f7f8f9;
+	border-radius: 50%;
+	height: 140px;
+	margin: -70px 0 0;
+	width: 140px;
+}
+
+.client-text {
+	background: #2f2f2f;
+	padding: 48px 10px;
+}
+
+/* --------------------------------------
+=========================================
+   10. SUBSCRIBE SECTION
+=========================================
+-----------------------------------------*/	
+
+/*---------------------------------------
+   10.1 GENERAL CSS              
+-----------------------------------------*/	
+
+.subscribe-bg h2, .subscribe-bg p {
+	color: #fff;
+}
+
+.subscribe-bg .center-line {
+	background: #fff;
+}
+
+.subscribe-form {
+	width: 100%;
+	max-width: 635px;
+	display: inline-block;
+}
+
+.subscribe-input {
+	background: #fff;
+	border: none;
+	height: 50px;
+	border-radius: 0px;
+	font-size: 12px;
+	color: #000;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 70%;
+	float: left;
+}
+
+.subscribe-button {
+	background: #00acb3 none repeat scroll 0 0;
+	border: 0 solid #ee2b49;
+	border-radius: 0;
+	color: #fff !important;
+	font-size: 15px;
+	height: 50px;
+	width: 30%;
+	float:left;
+}
+
+#newsletter-error, #signup-error {
+	background:#ee2b49;
+	color:#fff;
+	padding:30px;
+	margin-bottom:20px;
+	display:none;
+}
+
+
+#newsletter-success, #signup-success {
+	background:#00acb3;
+	color:#fff;
+	padding:30px;
+	margin-bottom:20px;
+	display:none;
+}
+
+#newsletter-error ul,  #signup-error ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.form-holder i{
+    font-size: 38px;
+    color: #f22c24;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 80px;
+    background: #fff;
+}
+
+#newsletter-error label, #signup-error label{
+    margin: 0;
+    padding: 0;
+}
+
+#newsletter-success i, #signup-success i{
+    color: #00acb3;
+}
+
+/* --------------------------------------
+=========================================
+   11. FOOTER  SECTION
+=========================================
+-----------------------------------------*/		
+
+/*---------------------------------------
+   11.1 GENERAL CSS              
+-----------------------------------------*/	
+
+
+footer {
+	padding: 70px 0;
+	background: #1f1f1f;
+	text-align: center;
+}
+
+ul.footer-social-icon {
+	display: inline-block;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+ul.footer-social-icon li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+	padding: 0px;
+}
+
+ul.footer-social-icon li a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    display: block;
+}
+
+footer p {
+	color: #ccc;
+	margin: 0;
+}
+/* --------------------------------------
+=========================================
+   14. RESPONSIVE FIXES
+=========================================
+-----------------------------------------*/
+
+/*---------------------------------------
+   14.1 FOR MAXIMUM WIDTH 992PX              
+-----------------------------------------*/
+
+@media (max-width: 993px) {
+
+.video iframe {
+	height: 440px;
+}
+
+}
+
+/*---------------------------------------
+   14.2 FOR MAXIMUM WIDTH 768PX              
+-----------------------------------------*/
+
+@media(max-width:769px) {
+
+.form-bg {
+    margin-top: 83px;
+}
+
+.padd-both{
+	padding:0;
+	}
+	
+.video iframe {
+	height: 340px;
+}
+
+}
+
+/*---------------------------------------
+   14.3 FOR MAXIMUM WIDTH 380PX              
+-----------------------------------------*/
+
+@media(max-width:380px) {
+
+    
+.video iframe {
+	height: 140px;
+}
+.subscribe-button {
+    width: 50%;
+
+}
+.subscribe-input {
+    width: 50%;
+}
+ul.footer-social-icon li a {
+    line-height: 30px;
+    width: 30px;
+}
+
+}

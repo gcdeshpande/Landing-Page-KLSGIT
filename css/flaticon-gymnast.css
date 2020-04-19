@@ -1,0 +1,179 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:03
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-25-kilos-weight:before { content: "\f100"; }
+.flaticon-apple-and-a-clipboard-with-notes-for-gymnast-diet-control:before { content: "\f101"; }
+.flaticon-apple-and-a-scale-outlines:before { content: "\f102"; }
+.flaticon-apple-silhouette-with-heart-shape:before { content: "\f103"; }
+.flaticon-bike-of-a-gymnast:before { content: "\f104"; }
+.flaticon-bodybuilder-carrying-dumbbell:before { content: "\f105"; }
+.flaticon-bodybuilder-carrying-weight-on-one-hand-outline:before { content: "\f106"; }
+.flaticon-burger-and-apple-on-a-balancing-scale:before { content: "\f107"; }
+.flaticon-burger-prohibition-sign-for-gymnast:before { content: "\f108"; }
+.flaticon-circular-jumping-bed:before { content: "\f109"; }
+.flaticon-clipboard-silhouette-with-arrow-pointing-up:before { content: "\f10a"; }
+.flaticon-clipboard-with-supplement-bottle-outline:before { content: "\f10b"; }
+.flaticon-dart-on-the-objective-center-on-an-apple:before { content: "\f10c"; }
+.flaticon-drinking-bottle-with-cap-variant:before { content: "\f10d"; }
+.flaticon-dumbbell-variant-outline:before { content: "\f10e"; }
+.flaticon-dumbbell-variant-outline-1:before { content: "\f10f"; }
+.flaticon-dumbbell-with-weights-outline:before { content: "\f110"; }
+.flaticon-dumbbells-couple-silhouette:before { content: "\f111"; }
+.flaticon-exercise-handle-tools:before { content: "\f112"; }
+.flaticon-female-gymnast-measuring-her-waist:before { content: "\f113"; }
+.flaticon-female-waist-reduction:before { content: "\f114"; }
+.flaticon-fork-and-knife-variant:before { content: "\f115"; }
+.flaticon-fork-with-a-carrot-outline:before { content: "\f116"; }
+.flaticon-fruit-diet:before { content: "\f117"; }
+.flaticon-gym-ball-with-parallel-stripes:before { content: "\f118"; }
+.flaticon-gym-control-of-exercises-with-a-list-on-a-clipboard-and-heart-beats:before { content: "\f119"; }
+.flaticon-gym-equipment-variant-outline:before { content: "\f11a"; }
+.flaticon-gym-objects-a-ball-and-a-dumbbell:before { content: "\f11b"; }
+.flaticon-gym-rings-couple:before { content: "\f11c"; }
+.flaticon-gym-smoking-prohibition-signal:before { content: "\f11d"; }
+.flaticon-gymnast:before { content: "\f11e"; }
+.flaticon-gymnast-abdominal-flexion:before { content: "\f11f"; }
+.flaticon-gymnast-apple-diet-with-natural-supplements:before { content: "\f120"; }
+.flaticon-gymnast-balancing-from-the-floor:before { content: "\f121"; }
+.flaticon-gymnast-balancing-on-handbar:before { content: "\f122"; }
+.flaticon-gymnast-bars-tool:before { content: "\f123"; }
+.flaticon-gymnast-control-of-diet-and-size-measures:before { content: "\f124"; }
+.flaticon-gymnast-control-of-heart-beats:before { content: "\f125"; }
+.flaticon-gymnast-diet:before { content: "\f126"; }
+.flaticon-gymnast-diet-control-card:before { content: "\f127"; }
+.flaticon-gymnast-diet-food:before { content: "\f128"; }
+.flaticon-gymnast-diet-list-on-a-clipboard-and-a-carrot-on-a-fork:before { content: "\f129"; }
+.flaticon-gymnast-drink-bottle-and-an-apple:before { content: "\f12a"; }
+.flaticon-gymnast-in-frontal-flexion-posture:before { content: "\f12b"; }
+.flaticon-gymnast-in-gym-practicing-strengthen-exercise:before { content: "\f12c"; }
+.flaticon-gymnast-inverted-on-a-stand:before { content: "\f12d"; }
+.flaticon-gymnast-lying-practicing-excercise-with-a-ball-in-hands:before { content: "\f12e"; }
+.flaticon-gymnast-making-abdominals-to-strengthen-abdominal-muscles:before { content: "\f12f"; }
+.flaticon-gymnast-muscular-arm-outline-with-a-timer:before { content: "\f130"; }
+.flaticon-gymnast-on-hands-and-one-knee-rising-one-leg-to-back:before { content: "\f131"; }
+.flaticon-gymnast-posture:before { content: "\f132"; }
+.flaticon-gymnast-posture-1:before { content: "\f133"; }
+.flaticon-gymnast-practice:before { content: "\f134"; }
+.flaticon-gymnast-practice-1:before { content: "\f135"; }
+.flaticon-gymnast-practice-2:before { content: "\f136"; }
+.flaticon-gymnast-practicing-abdominal-exercises:before { content: "\f137"; }
+.flaticon-gymnast-practicing-excercise-with-dumbbells:before { content: "\f138"; }
+.flaticon-gymnast-practicing-pilates-on-a-big-ball:before { content: "\f139"; }
+.flaticon-gymnast-silhouette:before { content: "\f13a"; }
+.flaticon-gymnast-silhouette-showing-muscles:before { content: "\f13b"; }
+.flaticon-gymnast-silhouette-standing-with-dumbbells:before { content: "\f13c"; }
+.flaticon-gymnast-sportive-shoe-side-view-outline-with-a-timer:before { content: "\f13d"; }
+.flaticon-gymnast-sportive-shoes-and-bottle-for-water:before { content: "\f13e"; }
+.flaticon-gymnast-standing-black-silhouette:before { content: "\f13f"; }
+.flaticon-gymnast-standing-in-rotation-posture:before { content: "\f140"; }
+.flaticon-gymnast-steroids-supplements-for-dumbbell-exercises:before { content: "\f141"; }
+.flaticon-gymnast-stick-man-variant-carrying-dumbbell-side-view:before { content: "\f142"; }
+.flaticon-gymnast-stick-man-variant-stretching-legs:before { content: "\f143"; }
+.flaticon-gymnast-stick-man-variant-using-exercise-ball:before { content: "\f144"; }
+.flaticon-gymnast-stretching-tool-side-view:before { content: "\f145"; }
+.flaticon-gymnast-using-gym-equipment:before { content: "\f146"; }
+.flaticon-gymnast-using-hand-bar:before { content: "\f147"; }
+.flaticon-gymnast-with-a-dumbbell-and-heart-shape-with-lifeline:before { content: "\f148"; }
+.flaticon-gymnast-with-a-hanging-boxing-bag:before { content: "\f149"; }
+.flaticon-gymnast-with-strong-muscles-in-full-body-view:before { content: "\f14a"; }
+.flaticon-heart-shape-outline-with-lifeline:before { content: "\f14b"; }
+.flaticon-heart-with-muscular-male-gymnast-arms:before { content: "\f14c"; }
+.flaticon-human-outline-flexing-muscles:before { content: "\f14d"; }
+.flaticon-juice-bottle-and-apple:before { content: "\f14e"; }
+.flaticon-jump-rope-with-a-timer:before { content: "\f14f"; }
+.flaticon-jumping-rope:before { content: "\f150"; }
+.flaticon-jumping-rope-variant:before { content: "\f151"; }
+.flaticon-lateral-flexion:before { content: "\f152"; }
+.flaticon-list-on-a-clipboard:before { content: "\f153"; }
+.flaticon-male-bodybuilder-silhouette-flexing-muscles:before { content: "\f154"; }
+.flaticon-male-gymnast-flexing-arms:before { content: "\f155"; }
+.flaticon-male-gymnast-legs-frontal-outline:before { content: "\f156"; }
+.flaticon-male-gymnast-outline-variant:before { content: "\f157"; }
+.flaticon-male-muscular-outline-with-apple:before { content: "\f158"; }
+.flaticon-male-silhouette-holding-dumbbell-variant:before { content: "\f159"; }
+.flaticon-male-silhouette-raising-dumbbell-of-small-size:before { content: "\f15a"; }
+.flaticon-male-silhouette-variant-showing-muscles:before { content: "\f15b"; }
+.flaticon-male-stick-man-with-legs-folded:before { content: "\f15c"; }
+.flaticon-male-weightlifter-outline-carrying-a-huge-dumbbell:before { content: "\f15d"; }
+.flaticon-man-flexing-his-muscles-silhouette:before { content: "\f15e"; }
+.flaticon-man-silhouette:before { content: "\f15f"; }
+.flaticon-man-silhouette-balancing-on-handbars:before { content: "\f160"; }
+.flaticon-man-weightlifter-carrying-dumbbell:before { content: "\f161"; }
+.flaticon-medallion-with-star-outline-variant:before { content: "\f162"; }
+.flaticon-medication-bottle-outline-and-heart-with-life-line:before { content: "\f163"; }
+.flaticon-medication-to-reduce-waist:before { content: "\f164"; }
+.flaticon-monitoring-heart-rate:before { content: "\f165"; }
+.flaticon-mountain-bike-outline-variant:before { content: "\f166"; }
+.flaticon-muscular-bodybuilder-outline:before { content: "\f167"; }
+.flaticon-muscular-bodybuilder-with-clock:before { content: "\f168"; }
+.flaticon-muscular-gymnast-arm-muscles-show:before { content: "\f169"; }
+.flaticon-muscular-gymnast-silhouette:before { content: "\f16a"; }
+.flaticon-muscular-gymnast-torso-outline:before { content: "\f16b"; }
+.flaticon-muscular-male-gymnast-exercising-with-two-dumbbells:before { content: "\f16c"; }
+.flaticon-muscular-male-gymnast-rising-a-dumbbell:before { content: "\f16d"; }
+.flaticon-muscular-male-gymnast-showing-his-muscles-standing-from-side-view:before { content: "\f16e"; }
+.flaticon-muscular-male-outline-with-heart-and-lifeline:before { content: "\f16f"; }
+.flaticon-muscular-male-torso-and-a-scale:before { content: "\f170"; }
+.flaticon-muscular-man-flexing-silhouette:before { content: "\f171"; }
+.flaticon-muscular-man-showing-his-muscles:before { content: "\f172"; }
+.flaticon-muscular-outline-of-a-bodybuilder-flexing:before { content: "\f173"; }
+.flaticon-pressure-dumbbell:before { content: "\f174"; }
+.flaticon-processed-food:before { content: "\f175"; }
+.flaticon-prohibition-of-steroids-for-gymnast:before { content: "\f176"; }
+.flaticon-protein-shake-and-dumbbell:before { content: "\f177"; }
+.flaticon-protein-shake-bottle-container:before { content: "\f178"; }
+.flaticon-round-weights-in-kilogram:before { content: "\f179"; }
+.flaticon-scale-for-body-weight-control:before { content: "\f17a"; }
+.flaticon-sexy-body-on-diet-with-apple:before { content: "\f17b"; }
+.flaticon-sitting-cartoon-man-carrying-dumbbell-side-view:before { content: "\f17c"; }
+.flaticon-slim-body-with-timer:before { content: "\f17d"; }
+.flaticon-sportive-prize-cup:before { content: "\f17e"; }
+.flaticon-sportive-shoe-outline-from-side-view:before { content: "\f17f"; }
+.flaticon-steroids-for-big-muscles:before { content: "\f180"; }
+.flaticon-stick-man-balancing-on-exercise-ball:before { content: "\f181"; }
+.flaticon-stick-man-lying-down-and-raising-one-leg:before { content: "\f182"; }
+.flaticon-stick-man-running-on-a-treadmill:before { content: "\f183"; }
+.flaticon-stick-man-side-view-raised-on-exercise-ball:before { content: "\f184"; }
+.flaticon-stick-man-side-view-weightlifting:before { content: "\f185"; }
+.flaticon-stick-man-variant-doing-push-ups:before { content: "\f186"; }
+.flaticon-stick-man-variant-doing-push-ups-from-the-ground:before { content: "\f187"; }
+.flaticon-striped-ball-and-a-ruler:before { content: "\f188"; }
+.flaticon-super-muscle-man-outline:before { content: "\f189"; }
+.flaticon-supplement-bottle-variant-outline:before { content: "\f18a"; }
+.flaticon-syringe-prohibition-sign-outline-variant:before { content: "\f18b"; }
+.flaticon-timer-on-a-dumbbells-tool-for-a-gymnast:before { content: "\f18c"; }
+.flaticon-timer-with-thick-outline-variant:before { content: "\f18d"; }
+.flaticon-treadmill:before { content: "\f18e"; }
+.flaticon-treadmill-machine-with-timer:before { content: "\f18f"; }
+.flaticon-treadmill-with-heart-beats-control-for-gymnasts:before { content: "\f190"; }
+.flaticon-verified-list-of-exercises-of-a-gymnast-on-a-clipboard:before { content: "\f191"; }
+.flaticon-weighing-scale-outline-with-25-kilos-weight:before { content: "\f192"; }
+.flaticon-weighing-scale-silhouette-variant:before { content: "\f193"; }
+.flaticon-weight:before { content: "\f194"; }
+.flaticon-yoga-posture:before { content: "\f195"; }
